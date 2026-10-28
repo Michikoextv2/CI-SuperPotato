@@ -33,13 +33,12 @@ This project provides two distinct kernel variants built from different base sou
 ## Flashing Instructions
 
 1. Reboot the device into a custom recovery.
-2. Flash the selected kernel `.zip` package (SuperCreepy or SuperPotato).
+2. Flash the selected kernel `.zip` package (SuperPotato).
 3. Reboot the system.
 
 *Note: It is highly recommended to back up your current `boot` and `dtbo` partitions before flashing.*
 
 ## Credits and Acknowledgments
 
-* [LineageOS Project](https://github.com/LineageOS) for the base source.
 * [Cilok-LAB](https://github.com/Cilok-LAB) for the rethinking kernel base.
 * All open-source contributors and testers.
