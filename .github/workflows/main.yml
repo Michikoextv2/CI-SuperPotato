@@ -529,7 +529,7 @@ jobs:
             https://github.com/FoxMiko-Labs/kernel_xiaomi_surya.git \
             kernel-log
           cd kernel-log
-          git fetch origin rebase
+          git fetch origin potatonew
           git checkout FETCH_HEAD
 
       # --------------------------------------------------------------------
