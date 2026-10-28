@@ -427,7 +427,7 @@ jobs:
 
     env:
       TG_CHAT_ID: "-1003641667794"
-      TG_THREAD_ID: "7279"
+      TG_THREAD_ID: "360"
       TARGET_DEVICE: "POCO X3 NFC (surya/karna)"
       DEFCONFIG: surya_defconfig
       KERNEL_NAME: SuperPotato
