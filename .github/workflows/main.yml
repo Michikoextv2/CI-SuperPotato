@@ -121,7 +121,7 @@ jobs:
         run: |
           python3 "$TG_HELPER" "Implanting NoMount..."
           cd "$KERNEL_DIR"
-          curl -fsSL https://raw.githubusercontent.com/maxsteeel/nomount/refs/heads/dev/kernel/setup.sh | bash -
+          curl -LSs https://raw.githubusercontent.com/maxsteeel/nomount/refs/heads/master/kernel/setup.sh | bash -s master
           python3 "$TG_HELPER" "NoMount: implanted"
 
       # --------------------------------------------------------------------
